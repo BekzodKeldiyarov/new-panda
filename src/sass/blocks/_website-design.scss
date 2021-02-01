@@ -1,0 +1,15 @@
+.website-design {
+    padding: 100px 0;
+
+    &__descr {
+        font-size: 18px;
+        line-height: 28px;
+        color: #6A6A6A;
+    }
+
+    &__descr__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
