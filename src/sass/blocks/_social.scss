@@ -1,0 +1,52 @@
+.social-content {
+
+    padding: 100px 0;
+    text-align: center;
+    letter-spacing: 1px;
+
+    &__list {
+        list-style: none;
+        padding: 0;
+    }
+
+    &__item {
+        margin-bottom: 80px;
+        border: 1px solid red;
+    }
+
+    &__title {
+        color: #000000;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    &__intro {
+        text-align: center;
+        color: #7f7f7f;
+        font-size: 16px;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    &__service {
+        &-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        &-name {
+            font-size: 16px;
+            color: #000000;
+            font-weight: 600;
+        }
+
+        &-descr {
+            font-size: 15px;
+            color: #626262;
+            font-weight: 500;
+        }
+    }
+}
