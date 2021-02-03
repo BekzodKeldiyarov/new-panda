@@ -11,9 +11,15 @@
 
     &__item {
         margin-bottom: 80px;
-        border: 1px solid red;
         padding: 20px 0;
+
+        &:nth-child(2n) {
+            // background-color: #000;
+            // color: #fff;
+        }
     }
+
+
 
     &__title {
         color: #000000;
@@ -27,7 +33,7 @@
         text-align: center;
         color: #7f7f7f;
         font-size: 16px;
-        max-width: 500px;
+        max-width: 600px;
         margin: 0 auto;
         margin-bottom: 50px;
     }

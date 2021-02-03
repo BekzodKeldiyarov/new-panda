@@ -1,11 +1,12 @@
 img {
     max-width: 100%;
 }
-*{
+
+* {
     font-family: "Open Sans", sans-serif;
 }
 
 @import './blocks/main';
 @import './blocks/promo';
 @import './blocks/website-design';
-@import './blocks/design-portfolio';
+@import './blocks/design-works';
