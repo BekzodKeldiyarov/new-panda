@@ -1,0 +1,107 @@
+.digital__promo {
+    padding: 100px 0;
+
+    &__text {
+        display: block;
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 2;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    &__subtext {
+        display: block;
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 2;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+}
+
+.digital__marketing {
+    padding: 100px 0;
+
+    &__title {
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+        color: #000;
+
+    }
+
+    &__descr {
+        padding: 20px 80px;
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 2px;
+
+        &-strong {
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-top: 30px;
+        }
+    }
+
+
+    &__getstarted {
+        padding: 20px 100px;
+    }
+
+    &__question {
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+        color: #000;
+    }
+
+    &__text {
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+
+    &__phone {
+        display: block;
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #000;
+        margin-top: 35px;
+        transition: all 0.5;
+        padding-left: 40px;
+        position: relative;
+
+        &:hover {
+            color: #000;
+            transform: translateY(-5px);
+        }
+
+        &::before {
+            content: "";
+            width: 20px;
+            height: 20px;
+            background-image: url(./../../icons/phone-call.svg);
+            background-position: center center;
+            background-size: cover;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -10px;
+        }
+
+    }
+}
